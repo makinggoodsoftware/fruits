@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'cglib:cglib:2.2.2',
+            'org.objenesis:objenesis:2.1',
+            'org.codehaus.groovy:groovy-all:2.3.7'
+    testCompile ('org.spockframework:spock-maven:0.7-groovy-2.0') {
+        exclude group: 'org.ow2.asm'
+    }
+}
