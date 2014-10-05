@@ -54,6 +54,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: doxia-sink-api-1.0-alpha-4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: jsch-0.1.23" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: common-junit3-2.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: guava-18.0" level="project" />
   </component>
 </module>
 
